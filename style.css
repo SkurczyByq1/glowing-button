@@ -1,0 +1,76 @@
+
+/*Glowing button by Skurczy // GitHub - https://github.com/SkurczyByq1 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body {
+    background-color: #24292f;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btnDiv {
+    height: 720px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓  BUTTON CODE ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ */
+
+.btn {
+    height: 64px;
+    width: 200px;
+    border-radius: 64px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-style: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all .1s ease-in-out 0s;
+}
+
+.btnIcon {
+    height: 24px;  /* ⇐⇐⇐ here change your image height */
+    width: 32px;  /* ⇐⇐⇐ here change your image width */
+    margin: 0 6px -3px;
+    background-image: url('icons/discord-mark-black.svg');  /* ⇐⇐⇐ here put your black icon */
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.btnText {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #000;
+    margin: 0 6px -3px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgba(243, 196, 12, 1);
+    border-color: rgba(243, 225, 12, 1);
+    box-shadow: 0 0 40px rgba(243, 196, 12, 1);
+    border-style: solid;
+}
+
+.btn:hover .btnIcon {
+    background-image: url('icons/discord-mark-white.svg');  /* ⇐⇐⇐ here put your white icon */
+}
+
+.btn:hover .btnText {
+    color: #fff;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 1);
+}
