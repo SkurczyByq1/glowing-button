@@ -17,7 +17,7 @@ body {
     color: #fff;
 }
 
-.btnDiv {
+div {
     height: 720px;
     width: 1920px;
     display: flex;
@@ -28,14 +28,14 @@ body {
 
 /* ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓  BUTTON CODE ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ ⇓ */
 
-.btn {
+button {
     height: 64px;
     width: 200px;
     border-radius: 64px;
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    border-color: rgba(243, 196, 12, 1);
+    border-color: rgba(243, 225, 12, 1);
     border-style: none;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     transition: all .3s ease-in-out 0s;
@@ -59,7 +59,7 @@ body {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.btn:hover {
+button:hover {
     cursor: pointer;
     background-color: rgba(243, 196, 12, 1);
     border-color: rgba(243, 225, 12, 1);
@@ -67,11 +67,11 @@ body {
     border-style: solid;
 }
 
-.btn:hover .btnIcon {
+button:hover .btnIcon {
     background-image: url('icons/discord-mark-white.svg');  /* ⇐⇐⇐ here put your white icon */
 }
 
-.btn:hover .btnText {
+button:hover .btnText {
     color: #fff;
     text-shadow: 0 0 40px rgba(255, 255, 255, 1);
 }
