@@ -48,6 +48,7 @@ button {
     background-image: url('icons/discord-mark-black.svg');  /* ⇐⇐⇐ here put your black icon */
     background-size: cover;
     background-position: center;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
     display: inline-block;
 }
 
@@ -69,6 +70,7 @@ button:hover {
 
 button:hover .btnIcon {
     background-image: url('icons/discord-mark-white.svg');  /* ⇐⇐⇐ here put your white icon */
+    filter: drop-shadow(0 0 20px #FFFFFF);
 }
 
 button:hover .btnText {
